@@ -67,7 +67,7 @@ const ArticleCategories = (props) => {
   };
 
   const API_URL =
-    "http://api.nytimes.com/svc/topstories/v2/" +
+    "https://api.nytimes.com/svc/topstories/v2/" +
     props.category +
     ".json?api-key=c50OfFb2PQdT2nTvRhfqbEWJwLAiRH8N";
 
