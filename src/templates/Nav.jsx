@@ -14,6 +14,7 @@ const Nav = () => {
     header: css`
       position: fixed;
       width: 100%;
+      max-width: 425px;
       top: 0;
       z-index: 10;
     `,
