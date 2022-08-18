@@ -5,7 +5,6 @@ import CategoryContext from "../context/CategoryContext";
 
 const Switch = (props) => {
   const { categories, setCategories } = useContext(CategoryContext);
-  console.log(categories);
 
   const styles = {
     switch: css`
